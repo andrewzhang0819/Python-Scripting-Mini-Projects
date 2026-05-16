@@ -186,6 +186,45 @@ def decrypt(ciphertext, key):
 
     return plaintext
 
+def encrypt_string(plaintext, key):
+    plaintext_bytes = plaintext.encode('utf-8')
+    plaintext_bytes_len = len(plaintext_bytes)
+
+    if plaintext_bytes_len % 2 == 1:
+        plaintext_bytes += "\x00"
+        plaintext_bytes_len += 1
+    
+    blocks = []
+
+    for i in range(0, plaintext_bytes_len, 2):
+        byte0 = plaintext_bytes[i]
+        byte1 = plaintext_bytes[i+1]
+
+        block = byte0 << 8 | byte1
+
+        encrypt_block = encrypt(block, key)
+        blocks.append(encrypt_block)
+    
+    return blocks
+
+def decrypt_string(ciphertext, key):
+    blocks = bytearray()
+
+    for block in ciphertext:
+        decrypt_block = decrypt(block, key)
+        
+        byte0 = decrypt_block >> 8 & 0xFF
+        byte1 = decrypt_block & 0xFF
+
+        blocks.append(byte0)
+        blocks.append(byte1)
+    
+    decrypted_string = blocks.decode("utf-8")
+    
+    if decrypted_string[-1] == '\x00':
+        return decrypted_string[:len(decrypted_string) - 1]
+    return decrypted_string
+    
 def main():
     example_plaintext = 0x3F1B
 
@@ -194,6 +233,12 @@ def main():
     print(f"Encrypted: {hex(ciphertext)}")
 
     print(f"Decrypted: {hex(decrypt(ciphertext, master_key))}")
+
+    example_plaintext = "I love eating cheeseburgers!"
+    encrypted_string = encrypt_string(example_plaintext, master_key)
+    decrypted_string = decrypt_string(encrypted_string, master_key)
+    print(encrypted_string)
+    print(decrypted_string)
 
 if __name__ == "__main__":
     main()

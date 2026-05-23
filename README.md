@@ -1,7 +1,7 @@
 ***Security Engineering Python Scripting Projects
-1. Cyphers / encryption algorithms
+1. Cyphers / encryption algorithms - Completed
 - Implement a cypher which converts text to something.
-2. Parse arbitrary logs
+2. Parse arbitrary logs - Completed
 - Collect logs and write a parser which pulls out specific details (domains, executable names, timestamps etc.)
 3. Web scrapers
 - Write a script to scrape information from a website

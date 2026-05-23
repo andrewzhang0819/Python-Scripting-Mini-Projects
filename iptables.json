@@ -1,0 +1,272 @@
+[
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "192.0.2.45",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "49152",
+        "DESTINATION_PORT": "22"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "203.0.113.12",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "55555",
+        "DESTINATION_PORT": "80"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "198.51.100.3",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "12345",
+        "DESTINATION_PORT": "443"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "185.15.22.1",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "4444",
+        "DESTINATION_PORT": "23"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "114.114.114.114",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "60000",
+        "DESTINATION_PORT": "3389"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "1.2.3.4",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "65432",
+        "DESTINATION_PORT": "22"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "8.8.8.8",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "53",
+        "DESTINATION_PORT": "49152"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "123.123.123.123",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "123",
+        "DESTINATION_PORT": "123"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "45.45.45.45",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "ICMP",
+        "SOURCE_PORT": "",
+        "DESTINATION_PORT": ""
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "192.168.1.254",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "ICMP",
+        "SOURCE_PORT": "",
+        "DESTINATION_PORT": ""
+    },
+    {
+        "IN": "",
+        "OUT": "eth0",
+        "SOURCE_IP": "10.10.10.5",
+        "DESTINATION_IP": "8.8.4.4",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "55555",
+        "DESTINATION_PORT": "53"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "eth1",
+        "SOURCE_IP": "10.10.10.10",
+        "DESTINATION_IP": "10.20.20.20",
+        "PROTOCOL": "ICMP",
+        "SOURCE_PORT": "",
+        "DESTINATION_PORT": ""
+    },
+    {
+        "IN": "lo",
+        "OUT": "",
+        "SOURCE_IP": "127.0.0.1",
+        "DESTINATION_IP": "127.0.0.1",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "3306",
+        "DESTINATION_PORT": "49152"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "104.28.1.1",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "161",
+        "DESTINATION_PORT": "161"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "192.0.2.100",
+        "DESTINATION_IP": "224.0.0.1",
+        "PROTOCOL": "2",
+        "SOURCE_PORT": "",
+        "DESTINATION_PORT": ""
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "172.16.0.5",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "514",
+        "DESTINATION_PORT": "514"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "89.89.89.89",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "443",
+        "DESTINATION_PORT": "34567"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "9.9.9.9",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "80",
+        "DESTINATION_PORT": "54321"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "198.51.100.10",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "3389",
+        "DESTINATION_PORT": "40000"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "10.10.10.5",
+        "DESTINATION_IP": "255.255.255.255",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "68",
+        "DESTINATION_PORT": "67"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "10.0.0.1",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "179",
+        "DESTINATION_PORT": "56789"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "172.20.20.20",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "ICMP",
+        "SOURCE_PORT": "",
+        "DESTINATION_PORT": ""
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "4.2.2.2",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "53",
+        "DESTINATION_PORT": "33333"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "192.168.100.5",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "1433",
+        "DESTINATION_PORT": "45678"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "10.10.10.50",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "ICMP",
+        "SOURCE_PORT": "",
+        "DESTINATION_PORT": ""
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "50.50.50.50",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "21",
+        "DESTINATION_PORT": "55555"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "185.15.22.2",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "23",
+        "DESTINATION_PORT": "44444"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "13.107.4.50",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "UDP",
+        "SOURCE_PORT": "443",
+        "DESTINATION_PORT": "60000"
+    },
+    {
+        "IN": "eth0",
+        "OUT": "",
+        "SOURCE_IP": "10.10.10.100",
+        "DESTINATION_IP": "10.10.10.5",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "49152",
+        "DESTINATION_PORT": "22"
+    },
+    {
+        "IN": "",
+        "OUT": "eth0",
+        "SOURCE_IP": "10.10.10.5",
+        "DESTINATION_IP": "93.184.216.34",
+        "PROTOCOL": "TCP",
+        "SOURCE_PORT": "55555",
+        "DESTINATION_PORT": "80"
+    }
+]

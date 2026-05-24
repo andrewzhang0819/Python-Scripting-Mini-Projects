@@ -3,7 +3,7 @@
 - Implement a cypher which converts text to something.
 2. Parse arbitrary logs - Completed
 - Collect logs and write a parser which pulls out specific details (domains, executable names, timestamps etc.)
-3. Web scrapers
+3. Web scrapers - Completed
 - Write a script to scrape information from a website
 4. Port Scanners
 - Write a port scanner or detect port scanning
@@ -19,10 +19,10 @@
 - Write a program that looks for malware signatures in binaries and code samples.
 
 ***Skills to obtain:
-- parse files
-- manipulate strings
-- use dictionaries/lists
-- read JSON
+- parse files - check
+- manipulate strings - check
+- use dictionaries/lists - check
+- read JSON - chec
 - make HTTP requests
-- process logs
+- process logs - check
 - automate repetitive tasks

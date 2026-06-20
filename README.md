@@ -1,11 +1,11 @@
 ***Security Engineering Python Scripting Projects
-1. Cyphers / encryption algorithms - Completed
+1. Cyphers / encryption algorithms - Completed***
 - Implement a cypher which converts text to something.
-2. Parse arbitrary logs - Completed
+2. Parse arbitrary logs - Completed***
 - Collect logs and write a parser which pulls out specific details (domains, executable names, timestamps etc.)
-3. Web scrapers - Completed
+3. Web scrapers - Completed*** 
 - Write a script to scrape information from a website
-4. Port Scanners
+4. Port Scanners - Completed***
 - Write a port scanner or detect port scanning
 5. Botnets
 - How would you build ssh botnet?

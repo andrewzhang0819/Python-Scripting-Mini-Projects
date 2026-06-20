@@ -4,6 +4,8 @@ import csv
 
 # Mini project, webscraper on example.com
 # ************************************************
+# https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+# https://docs.python-requests.org/en/latest/user/quickstart/
 # https://www.youtube.com/watch?v=ng2o98k983k
 # very helpful tutorial
 # ************************************************
